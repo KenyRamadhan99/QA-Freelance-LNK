@@ -1,4 +1,9 @@
 # QA-Freelance-LNK
+Penjelasan folder dan file 
+1. letak test case ada pada path : cypress/e2e/TCS/Test Case.js
+2. folder pageObject/form.js berisi element-element yang ada pada form google 
+3. folder fixtures berisi data file untuk digunakan sebagai data driven testing,dalam kasus ini saya menggunakan json dan bisa pula menggunakan csv atau excel
+4. folder reports berisikan template html yang berisi laporan mengenai tcs yang sudah di running
 
 Cara running tcs :
 1. Buka terminal pada path folder project
