@@ -16,5 +16,12 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-mochawesome-reporter/register';
+require('cypress-xpath');
+
+
+const faker = require('faker');
+Cypress.Commands.add('generateRandomEmail', () => {
+  return faker.internet.email();
+});
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
