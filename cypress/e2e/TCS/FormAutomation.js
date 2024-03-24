@@ -6,7 +6,7 @@ import { faker } from '@faker-js/faker'
 
 const Form = new form();
 
-describe('Test LNK QA Freelance', () => {
+describe('Google Service Form', () => {
 
   let formData
   before(() => {
